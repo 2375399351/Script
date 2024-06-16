@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#改自定时面板上的签到盒https://raw.githubusercontent.com/OreosLab/checkinpanel/master/ck_picacomic.py
 """
 cron: 45 5 * * *
 new Env('哔咔漫画');

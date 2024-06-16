@@ -9,8 +9,14 @@ import hmac
 import random
 import string
 import time
+import socket
+import socks
+
 
 import requests
+
+socks.set_default_proxy(socks.SOCKS5, "192.168.2.1", 5585)
+socket.socket = socks.socksocket
 
 from notify_mtr import send
 from utils import get_data
